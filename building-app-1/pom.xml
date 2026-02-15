@@ -11,6 +11,12 @@
 
     <artifactId>building-app-1</artifactId>
 
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
@@ -37,7 +43,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>org.ies.tierno.objects.building.model.BuildingApp1</mainClass>
+                                    <mainClass>org.example.BuildingApp1</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
@@ -67,8 +73,5 @@
             </plugin>
         </plugins>
     </build>
-
-
-
 
 </project>

@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>readers</artifactId>
+            <artifactId>model</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
